@@ -1,0 +1,62 @@
+body {
+  font-family: "Comic Sans MS", cursive; /* Doraemon's playful style */
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd; /* Light background color */
+}
+
+header {
+  background-color: #1294d4; /* Doraemon's blue color */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+main,
+section,
+footer {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* Additional Styling for a Doraemon-inspired look */
+h2 {
+  font-family: "Comic Sans MS", cursive;
+  color: #1294d4; /* Doraemon's blue color */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1294d4; /* Doraemon's blue color */
+  color: #fff;
+}
+
+figure {
+  margin: 0;
+  display: inline-block;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  color: #777; /* Lighter color for captions */
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="gadgets.css" />
+    <title>Doraemon Gadgets</title>
+  </head>
+  <body>
+    <header>
+      <h1>Doraemon Gadgets</h1>
+      <nav>
+        <ul>
+          <a href="./index.html">
+            <li><strong>Go to HomePage</strong></li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="gadget-showcase">
+      <h2>Gadgets</h2>
+      <figure>
+        <img
+          src="flying-broom.jpg"
+          alt="flying-broom"
+          width="300"
+          height="200"
+        />
+        <figcaption>Flying Broom</figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="anywhere-door.webp"
+          alt="anywhere-door"
+          width="300"
+          height="200"
+        />
+        <figcaption>Anywhere Door</figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="animal-cracker.png"
+          alt="animal-cracker"
+          width="300"
+          height="200"
+        />
+        <figcaption>Animal Cracker</figcaption>
+      </figure>
+      <!-- Add more information about the showcased gadget -->
+    </section>
+
+    <section id="request-form">
+      <h2>Request a Gadget</h2>
+      <form id="form">
+        <!-- Your form elements go here -->
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" /><br />
+
+        <label for="age">Your Age:</label>
+        <input type="number" id="age" name="age" min="0" /><br />
+
+        <label for="gadgetName">Gadget Name:</label>
+        <input type="text" id="gadgetName" name="gadgetName" /><br />
+
+        <label for="requestMessage">Your Message:</label>
+        <textarea id="requestMessage" name="requestMessage" rows="4"></textarea>
+
+        <button type="submit">Submit Request</button>
+      </form>
+    </section>
+
+    <script>
+      document
+        .getElementById("form")
+        .addEventListener("submit", function (event) {
+          // Prevent the default form submission behavior
+          event.preventDefault();
+
+          // Access the form element using event.target
+          let form = event.target;
+
+          // Get the values of form inputs using standard DOM methods
+          let age = form.querySelector("#ageage").value;
+
+          if (age > 25) {
+            alert("Sorry, you are too old for this");
+          } else {
+            alert("On its way!");
+          }
+        });
+    </script>
+
+    <footer>
+      <p>© 2024 Doraemon Fun Zone. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

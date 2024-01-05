@@ -1,0 +1,69 @@
+body {
+  /* font-family: "Arial", sans-serif; */
+  font-family: "Comic Sans MS", cursive; /* Doraemon's playful style */
+  font-size: larger;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Your existing styles remain unchanged */
+
+header,
+main,
+section,
+footer {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #1294d4; /* Doraemon's blue color */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#fun-facts li {
+  margin: 2% 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+}
